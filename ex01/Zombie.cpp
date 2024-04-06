@@ -15,7 +15,7 @@ Zombie::Zombie( void ) {
 
 Zombie::~Zombie( void ) {
     
-    std::cout << name << "Destructor called" << std::endl;
+    std::cout << name << " : Destructor called" << std::endl;
     return;
 }
 

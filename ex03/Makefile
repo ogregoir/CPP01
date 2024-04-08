@@ -1,9 +1,12 @@
-NAME = HI_THIS_IS_BRAIN
+NAME = unnecessary_violence
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 CC = c++
 RM = rm -f
 
 SRCS =	main.cpp \
+		HumanA.cpp \
+		HumanB.cpp \
+		Weapon.cpp \
 
 OBJC = ${SRCS:.cpp=.o}
 

@@ -6,7 +6,7 @@
 /*   By: ogregoir <ogregoir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 14:29:58 by ogregoir          #+#    #+#             */
-/*   Updated: 2024/04/08 19:45:32 by ogregoir         ###   ########.fr       */
+/*   Updated: 2024/04/12 14:25:29 by ogregoir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main()
     HumanB jim("Jim");
     jim.Attack();
     jim.setWeapon(club);
-    club.setType("CC");
+    club.setType("rocket");
     jim.Attack();
     return (0);
 }

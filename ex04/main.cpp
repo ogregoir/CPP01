@@ -48,20 +48,20 @@ int main(int argc, char **argv)
 	}
 	while (std::getline(inputFile, tmp))
 	{
+		if (found_pos == std::string::npos)
+			replace += '\n';
 		start_pos = 0;
 		found_pos = tmp.find(s1);
 		while (found_pos != std::string::npos)
 		{
-			
 			replace += tmp.substr(start_pos, found_pos - start_pos);
 			replace += s2;
 			start_pos =  found_pos + s1.size();
 			found_pos = tmp.find(s1, start_pos);
 		}
 		replace += tmp.substr(start_pos);
-		replace += '\n';
-		
 	}
+	std::cout << replace << std::endl;
 	outputFile << replace;
 	inputFile.close();
 }

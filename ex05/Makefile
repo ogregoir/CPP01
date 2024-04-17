@@ -4,6 +4,7 @@ CC = c++
 RM = rm -f
 
 SRCS =	main.cpp \
+		Harl.cpp \
 		
 
 OBJC = ${SRCS:.cpp=.o}

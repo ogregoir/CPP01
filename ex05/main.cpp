@@ -10,3 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Harl.hpp"
+
+int main (void)
+{
+    Harl door;
+    door.complain("DEBUG");
+    door.complain("INFO");
+    door.complain("Oceane");
+    door.complain("WARNING");
+    door.complain("ERROR");
+}

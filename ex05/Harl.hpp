@@ -13,6 +13,7 @@
 #ifndef HARL_H
 #define HARL_H
 
+#pragma once
 #include <string>
 #include <iostream>
 

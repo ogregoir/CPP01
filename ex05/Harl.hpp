@@ -10,10 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HARL_H
-#define HARL_H
-
 #pragma once
+
 #include <string>
 #include <iostream>
 
@@ -33,5 +31,3 @@ void complain( std::string level );
 ~Harl( void );
 
 };
-
-#endif

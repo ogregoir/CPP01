@@ -20,7 +20,7 @@ Harl::Harl( void )
 
 Harl::~Harl( void )
 {
-    std::cout << " : Destructor called" << std::endl;
+    std::cout << "Destructor called" << std::endl;
     return;
 }
 

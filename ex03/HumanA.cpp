@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:19:17 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/06 16:31:50 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/13 03:02:48 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ HumanA::~HumanA( void ) {
 HumanA::HumanA(std::string name, Weapon &arm) : arm(arm)
 {
     HumanA::name = name;
-    std::cout << "HumanA Constructor called" << std::endl;
+    std::cout << "HumanA constructor called" << std::endl;
     return ;
 }
 

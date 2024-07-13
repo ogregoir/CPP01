@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:20:26 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/05 17:40:10 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/13 02:44:43 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,11 @@ std::string name;
 
 public :
 
-Zombie(std::string name);
 Zombie();
+Zombie(std::string name);
 void    announce(void);
+~Zombie();
 
-~Zombie ( void );
 };
 
 Zombie *newZombie(std::string name);

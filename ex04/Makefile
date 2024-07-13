@@ -1,14 +1,19 @@
 NAME = sed_is_losers
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
+
 CC = c++
+
 RM = rm -f
 
 SRCS =	main.cpp \
 		
-
 OBJC = ${SRCS:.cpp=.o}
 
 all: ${NAME}
+
+.cpp.o:
+	${CC} -c $< -o $(<:.cpp=.o) ${CFLAGS}
 
 ${NAME}: ${OBJC}
 	${CC} ${CFLAGS} ${OBJC} -o ${NAME}

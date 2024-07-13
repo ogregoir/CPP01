@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ogregoir <ogregoir@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 13:37:48 by ogregoir          #+#    #+#             */
-/*   Updated: 2024/04/06 14:15:02 by ogregoir         ###   ########.fr       */
+/*   Updated: 2024/07/13 02:58:03 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ int main (void)
     std::string     *stringPTR;
     std::string     &stringREF = str;
     
-    str = new char[ft_strlen(str) +1];
     str = "HI THIS IS BRAIN";
+    
     stringPTR = &str;
     std::cout << "Adresse memoire str : " << &str << std::endl;
     std::cout << "Adresse memoire stringPTR : " << stringPTR << std::endl;

@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:20:13 by marvin            #+#    #+#             */
-/*   Updated: 2024/06/03 17:37:21 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/17 10:25:13 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int main(void)
     zombie.announce();
     zombie2 = newZombie("BIIIE");
     zombie2->announce();
-    delete zombie2;
-
     randomChump("BOOOOO");
+    
+    delete zombie2;
     return(0);
 }

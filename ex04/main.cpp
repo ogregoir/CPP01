@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/12 15:20:19 by ogregoir          #+#    #+#             */
-/*   Updated: 2024/07/13 04:09:21 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/17 10:45:15 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ int main(int argc, char **argv)
 	}
 	while (std::getline(inputFile, tmp))
 		replace = ft_replace(found_pos, start_pos, s1, tmp, replace, s2);
-	std::cout << replace << std::endl;
+	std::cout << replace;
 	outputFile << replace;
 	inputFile.close();
 	outputFile.close();

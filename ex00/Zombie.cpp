@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:20:21 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/13 02:45:52 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/17 10:24:49 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ void    Zombie::announce(void)
 
 Zombie::~Zombie()
 {
-	std::cout << name << " destroyed" << std::endl;
+	std::cout << "Zombie destructor called. " << name << " destroyed." << std::endl;
 }

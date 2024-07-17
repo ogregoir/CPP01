@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:19:17 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/13 03:02:48 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/17 10:19:12 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 HumanA::~HumanA( void ) {
     
-    std::cout << "HumanA Destructor called" << std::endl;
+    std::cout << "HumanA destructor called" << std::endl;
     return ;
 }
 

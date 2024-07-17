@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 13:37:48 by ogregoir          #+#    #+#             */
-/*   Updated: 2024/07/13 02:58:03 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/17 11:40:55 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,6 @@
 #include <cctype>
 #include <cstring>
 #include <iostream>
-
-int ft_strlen(std::string str)
-{
-    int i;
-
-    i = 0;
-    while (str[i])
-        i++;
-    return (i);
-}
 
 int main (void)
 {
